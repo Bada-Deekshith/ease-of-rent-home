@@ -4,7 +4,7 @@ import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
 import { DialogHeader, DialogTitle, DialogDescription } from "@/components/ui/dialog";
-import { Radio, RadioGroup } from "@/components/ui/radio-group";
+import { RadioGroup, RadioGroupItem } from "@/components/ui/radio-group";
 import { AlertCircle } from 'lucide-react';
 import { useToast } from '@/components/ui/use-toast';
 
@@ -104,11 +104,11 @@ const RegisterForm = ({ onLoginClick }: RegisterFormProps) => {
             className="flex flex-col space-y-1"
           >
             <div className="flex items-center space-x-2">
-              <Radio id="renter" value="renter" />
+              <RadioGroupItem id="renter" value="renter" />
               <Label htmlFor="renter" className="cursor-pointer">Renter looking for a property</Label>
             </div>
             <div className="flex items-center space-x-2">
-              <Radio id="owner" value="owner" />
+              <RadioGroupItem id="owner" value="owner" />
               <Label htmlFor="owner" className="cursor-pointer">Property owner or manager</Label>
             </div>
           </RadioGroup>
