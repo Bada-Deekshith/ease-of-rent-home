@@ -1,4 +1,3 @@
-
 import { useEffect, useState } from 'react';
 import { useParams, Link } from 'react-router-dom';
 import { Button } from '@/components/ui/button';
@@ -34,43 +33,41 @@ interface Property {
 // Sample property data
 const sampleProperty: Property = {
   id: 1,
-  title: "Modern Downtown Apartment with City Views",
-  description: "Beautiful and spacious downtown apartment with stunning city views. This modern 1-bedroom apartment features hardwood floors, stainless steel appliances, and a private balcony. The building offers a fitness center, rooftop lounge, and 24/7 security.\n\nThe apartment is located in the heart of the downtown area, within walking distance to restaurants, shops, and public transportation. Perfect for young professionals or couples looking for a comfortable urban living experience.",
-  address: "123 Main Street, Apt 501",
-  city: "San Francisco",
-  state: "CA",
-  zipCode: "94103",
-  price: 2400,
-  bedrooms: 1,
-  bathrooms: 1,
-  squareFeet: 650,
+  title: "Luxury Apartment in Banjara Hills",
+  description: "Experience luxury living in this beautifully designed apartment located in the heart of Banjara Hills. This modern 3-bedroom apartment features premium finishes, spacious rooms, and a private balcony with stunning city views. The complex offers amenities including a fitness center, swimming pool, and 24/7 security.\n\nThe apartment is situated in an upscale neighborhood, close to premium restaurants, shopping centers, and international schools. Perfect for families looking for a sophisticated urban lifestyle in Hyderabad's most prestigious locality.",
+  address: "8-2-293/82/A/1107",
+  city: "Hyderabad",
+  state: "Telangana",
+  zipCode: "500034",
+  price: 55000,
+  bedrooms: 3,
+  bathrooms: 3,
+  squareFeet: 2100,
   propertyType: "Apartment",
   images: [
-    "https://images.unsplash.com/photo-1502672260266-1c1ef2d93688?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80",
-    "https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80",
-    "https://images.unsplash.com/photo-1594540992254-9d8a5b5d52e1?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80",
-    "https://images.unsplash.com/photo-1564013799919-ab600027ffc6?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80",
-    "https://images.unsplash.com/photo-1560185893-a55cbc8c57e8?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80"
+    "https://images.unsplash.com/photo-1466442929976-97f336a657be?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80",
+    "https://images.unsplash.com/photo-1492321936769-b49830bc1d1e?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80",
+    "https://images.unsplash.com/photo-1524230572899-a752b3835840?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80"
   ],
   availableFrom: "2025-05-15",
   amenities: [
-    { id: "1", name: "In-unit washer/dryer" },
-    { id: "2", name: "Central air conditioning" },
-    { id: "3", name: "Dishwasher" },
-    { id: "4", name: "Hardwood floors" },
-    { id: "5", name: "Balcony" },
-    { id: "6", name: "Stainless steel appliances" },
-    { id: "7", name: "Walk-in closet" },
-    { id: "8", name: "High-speed internet ready" }
+    { id: "1", name: "Power Backup" },
+    { id: "2", name: "Air Conditioning" },
+    { id: "3", name: "Modular Kitchen" },
+    { id: "4", name: "Marble Flooring" },
+    { id: "5", name: "Private Balcony" },
+    { id: "6", name: "Premium Fixtures" },
+    { id: "7", name: "Walk-in Wardrobe" },
+    { id: "8", name: "High-speed Internet" }
   ],
   features: [
-    "Fitness center access",
-    "Rooftop lounge",
-    "Package receiving service",
-    "24/7 security",
-    "Pet-friendly (with restrictions)",
-    "Bike storage",
-    "On-site management"
+    "Swimming Pool Access",
+    "Clubhouse",
+    "Visitor Parking",
+    "24/7 Security",
+    "Pet-friendly",
+    "Reserved Parking",
+    "Children's Play Area"
   ]
 };
 
