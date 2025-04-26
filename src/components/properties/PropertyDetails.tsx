@@ -35,7 +35,7 @@ interface PropertyDetailsProps {
 const PropertyDetails = ({ property }: PropertyDetailsProps) => {
   const formatDate = (dateString: string) => {
     const date = new Date(dateString);
-    return new Intl.DateTimeFormat('en-IN', { 
+    return new Intl.DateTimeFormat('en-US', { 
       month: 'long', 
       day: 'numeric',
       year: 'numeric' 
@@ -43,9 +43,9 @@ const PropertyDetails = ({ property }: PropertyDetailsProps) => {
   };
 
   const formatPrice = (price: number) => {
-    return new Intl.NumberFormat('en-IN', {
+    return new Intl.NumberFormat('en-US', {
       style: 'currency',
-      currency: 'INR',
+      currency: 'USD',
       maximumFractionDigits: 0,
     }).format(price);
   };
