@@ -1,4 +1,3 @@
-
 import { useEffect, useState } from 'react';
 import { useParams, Link } from 'react-router-dom';
 import { Button } from '@/components/ui/button';
@@ -34,13 +33,13 @@ interface Property {
 // Sample property data
 const sampleProperty: Property = {
   id: 1,
-  title: "Modern Downtown Apartment with City Views",
-  description: "Beautiful and spacious downtown apartment with stunning city views. This modern 1-bedroom apartment features hardwood floors, stainless steel appliances, and a private balcony. The building offers a fitness center, rooftop lounge, and 24/7 security.\n\nThe apartment is located in the heart of the downtown area, within walking distance to restaurants, shops, and public transportation. Perfect for young professionals or couples looking for a comfortable urban living experience.",
-  address: "123 Main Street, Apt 501",
-  city: "San Francisco",
-  state: "CA",
-  zipCode: "94103",
-  price: 2400,
+  title: "Modern Apartment in Banjara Hills",
+  description: "Beautiful and spacious apartment in Banjara Hills with stunning city views. This modern 1-bedroom apartment features premium flooring, modern appliances, and a private balcony. The building offers a fitness center, rooftop lounge, and 24/7 security.\n\nThe apartment is located in the heart of Banjara Hills, within walking distance to restaurants, shops, and public transportation. Perfect for young professionals or couples looking for a comfortable urban living experience.",
+  address: "123 Banjara Hills Road",
+  city: "Hyderabad",
+  state: "Telangana",
+  zipCode: "500034",
+  price: 35000,
   bedrooms: 1,
   bathrooms: 1,
   squareFeet: 650,

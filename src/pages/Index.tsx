@@ -1,4 +1,3 @@
-
 import React from 'react';
 import Hero from '@/components/common/Hero';
 import PropertyCard from '@/components/properties/PropertyCard';
@@ -12,9 +11,9 @@ import { Link } from 'react-router-dom';
 const featuredProperties = [
   {
     id: 1,
-    title: "Modern Downtown Apartment",
-    address: "123 Main St, San Francisco, CA 94103",
-    price: 2400,
+    title: "Modern Apartment in Banjara Hills",
+    address: "123 Banjara Hills Road, Hyderabad, Telangana 500034",
+    price: 35000,
     bedrooms: 1,
     bathrooms: 1,
     squareFeet: 650,
@@ -22,9 +21,9 @@ const featuredProperties = [
   },
   {
     id: 2,
-    title: "Cozy 2BR with City Views",
-    address: "456 Park Ave, New York, NY 10022",
-    price: 3200,
+    title: "Spacious 2BR with City Views",
+    address: "456 Jubilee Hills, Hyderabad, Telangana 500033",
+    price: 45000,
     bedrooms: 2,
     bathrooms: 2,
     squareFeet: 950,
@@ -32,9 +31,9 @@ const featuredProperties = [
   },
   {
     id: 3,
-    title: "Luxury Loft in Historic District",
-    address: "789 Elm St, Chicago, IL 60611",
-    price: 2800,
+    title: "Luxury Loft in Gachibowli",
+    address: "789 Financial District, Hyderabad, Telangana 500032",
+    price: 40000,
     bedrooms: 1,
     bathrooms: 1.5,
     squareFeet: 820,
@@ -42,9 +41,9 @@ const featuredProperties = [
   },
   {
     id: 4,
-    title: "Spacious Family Home with Garden",
-    address: "321 Oak Dr, Austin, TX 78704",
-    price: 3800,
+    title: "Spacious Family Home in Manikonda",
+    address: "321 Manikonda Main Road, Hyderabad, Telangana 500089",
+    price: 55000,
     bedrooms: 3,
     bathrooms: 2.5,
     squareFeet: 1850,
@@ -52,9 +51,9 @@ const featuredProperties = [
   },
   {
     id: 5,
-    title: "Renovated Studio in Arts District",
-    address: "555 Gallery Ave, Los Angeles, CA 90012",
-    price: 1950,
+    title: "Studio in HITEC City",
+    address: "555 HITEC City, Hyderabad, Telangana 500081",
+    price: 25000,
     bedrooms: 0,
     bathrooms: 1,
     squareFeet: 550,
@@ -62,9 +61,9 @@ const featuredProperties = [
   },
   {
     id: 6,
-    title: "Charming 2BR Townhouse",
-    address: "888 Maple St, Seattle, WA 98101",
-    price: 2750,
+    title: "Charming 2BR in Kondapur",
+    address: "888 Kondapur Main Road, Hyderabad, Telangana 500084",
+    price: 38000,
     bedrooms: 2,
     bathrooms: 1.5,
     squareFeet: 1050,
@@ -156,7 +155,7 @@ const Index = () => {
         {/* CTA Section */}
         <section className="py-16 px-4 gradient-bg text-white">
           <div className="container mx-auto text-center">
-            <h2 className="text-2xl md:text-3xl font-bold mb-4">Ready to Find Your Perfect Home?</h2>
+            <h2 className="text-2xl md:text-3xl font-bold">Ready to Find Your Perfect Home?</h2>
             <p className="text-lg md:text-xl max-w-2xl mx-auto mb-8">
               Start your search today and discover the perfect rental property that fits all your needs.
             </p>
